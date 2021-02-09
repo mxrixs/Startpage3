@@ -1,0 +1,29 @@
+html {
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 254, 253);
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 5vw;
+  background-color: rgb(74, 79, 122);
+}
+.grid-container {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.grid {
+  height: 4em;
+  background-color: rgba(79, 28, 85, 0.418);
+  margin-left: 20em;
+  margin-right: 20em;
+}
