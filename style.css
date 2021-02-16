@@ -1,29 +1,43 @@
+
+@import url("vars.css");
 html {
-  position: fixed;
   display: block;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(255, 254, 253);
+  background-color: var(--nord0);
+  overflow: hidden;
 }
+
 .container {
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
-p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 5vw;
-  background-color: rgb(74, 79, 122);
-}
+
 .grid-container {
   display: grid;
-  grid-gap: 1em;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 26vh 10vw 0 10vw;
 }
 
 .grid {
-  height: 4em;
-  background-color: rgba(79, 28, 85, 0.418);
-  margin-left: 20em;
-  margin-right: 20em;
+  display: flex;
+  height: 20vh;
+  margin: 1vw;
+  border-radius: 0.54vw;
+  background-color: var(--nord1);
+}
+
+.grid:hover {
+  background-color: var(--nord2)
+}
+
+.title{
+margin: 10vh 3em -15vh 10.5vw;
+}
+
+p {
+ display: inline; 
+ color: var(--nord4);
+ font-size: 3em;
+ font-weight: 600;
 }
