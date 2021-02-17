@@ -6,6 +6,7 @@ html {
   height: 100vh;
   background-color: var(--nord0);
   overflow: hidden;
+  font-family: IBM Plex Sans;
 }
 
 .container {
@@ -23,21 +24,22 @@ html {
   display: flex;
   height: 20vh;
   margin: 1vw;
-  border-radius: 0.54vw;
+  border-radius: 0.54em;
   background-color: var(--nord1);
 }
 
 .grid:hover {
-  background-color: var(--nord2)
+  background-color: var(--nord2);
 }
 
-.title{
-margin: 10vh 3em -15vh 10.5vw;
+.header{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-p {
- display: inline; 
- color: var(--nord4);
+.title, .clock {
+ color: var(--nord5);
  font-size: 3em;
- font-weight: 600;
+ font-weight: 800;
 }
