@@ -17,14 +17,14 @@ html {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 26vh 10vw 0 10vw;
+  margin: 0 10vw 10vw 10vw;
 }
 
 .grid {
   display: flex;
-  height: 20vh;
+  height: 15em;
   margin: 1vw;
-  border-radius: 0.54em;
+  border-radius: 0.4em;
   background-color: var(--nord1);
 }
 
@@ -33,13 +33,49 @@ html {
 }
 
 .header{
-  margin: 0 auto;
+  margin: 8vh 10.5vw;
   display: flex;
   justify-content: space-between;
 }
 
-.title, .clock {
- color: var(--nord5);
- font-size: 3em;
+.clock {
+ color: var(--nord6);
+ font-size: 5em;
  font-weight: 800;
+ font-family: Tahoma;
+}
+
+.searchbar{
+  margin: 6vh 0.6vw 0 0;
+}
+
+input{
+  background-color: var(--nord1);
+  border: none;
+  border-radius: 0.4em;
+  width: 23vw;
+  height: 1.7em;
+  color: var(--nord6);
+  font-weight: bold;
+}
+
+input:hover{
+  background-color: var(--nord2);
+}
+
+input:active{
+  background-color: var(--nord3);
+}
+
+a{
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 0.6em 0 0 1.1em;
+  display: inline;
+  color: var(--nord5);
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--nord7);
 }
