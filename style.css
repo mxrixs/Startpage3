@@ -21,7 +21,7 @@ html {
 }
 
 .grid {
-  display: flex;
+  display: block;
   height: 15em;
   margin: 1vw;
   border-radius: 0.4em;
@@ -68,14 +68,27 @@ input:active{
 }
 
 a{
-  font-weight: 400;
-  font-size: 1.2em;
-  margin: 0.6em 0 0 1.1em;
   display: block !important;
-  color: var(--nord5);
   text-decoration: none;
+  color: var(--nord6);
 }
 
-a:hover{ 
+.link{
+  font-weight: 400;
+  margin: 0.6em 0 0 1.1em;
+  color: var(--nord5);
+  font-size: 1.2em;
+}
+
+.link:hover{ 
   color: var(--nord7);
+}
+
+h2{
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: none;
+  color: var(--nord9);
+  margin-top: 0.3em;
+  font-weight: 600;
 }
