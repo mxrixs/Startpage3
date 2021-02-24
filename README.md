@@ -5,5 +5,13 @@
 
 
 ### Stuff used
-	https://freebiesbug.com/psd-freebies/42-minimal-weather-icons/
+
+	##Icons
+	https://github.com/amitjakhu/dripicons-weather
+	https://iconstore.co/icons/outline-weather-icons/
+	
+	##Weather API
 	https://openweathermap.org/
+	
+	##Color Theme
+	https://www.nordtheme.com/
