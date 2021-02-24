@@ -21,7 +21,7 @@ function weather(){
     )
     Identifier = Json.weather[0].description;
     if(Identifier == blabla){
-        GetElementById("Weather.Icon").src = cloud.svg;
+        GetElementById("Weather.Icon").src = blabla.svg;
     }
     else if(Identifier == blablabla){
         GetElementById("Weather.Icon").src = blablabla.svg;
