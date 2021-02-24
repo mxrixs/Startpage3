@@ -6,12 +6,12 @@
 
 ### Stuff used
 
-	## Icons
+## Icons
 	https://github.com/amitjakhu/dripicons-weather
 	https://iconstore.co/icons/outline-weather-icons/
 	
-	## Weather API
+## Weather API
 	https://openweathermap.org/
 	
-	## Color Theme
+## Color Theme
 	https://www.nordtheme.com/
