@@ -10,5 +10,25 @@ function clock() {
     setInterval(clock, 1000);
     document.getElementById("clock").innerText = time;
     }
-    
-    clock();
+
+function weather(){
+    let Identifier;
+    let Json;
+    let Result = fetch('https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd');
+    then(
+        Json = Result.json()
+    )
+    then(
+        Identifier = Json.weather[0].description
+    )
+    if(Identifier == blabla){
+        GetElementById("Weather.Icon").src = blabla.svg;
+    }
+    else if(Identifier == blablabla){
+        GetElementById("Weather.Icon").src = blablabla.svg;
+    }
+    setInterval(clock, 600000);
+}
+
+weather();   
+clock();
