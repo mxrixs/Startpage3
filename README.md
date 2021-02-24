@@ -7,12 +7,12 @@
 ### Stuff used
 
 #### Icons
-   https://github.com/amitjakhu/dripicons-weather
-   https://iconstore.co/icons/outline-weather-icons/
-   https://iconstore.co/icons/weather-icon-set
+	[dripicons-weather](https://github.com/amitjakhu/dripicons-weather)
+	[outline-weather-icons](https://iconstore.co/icons/outline-weather-icons/)
+	[weather-icon-set](https://iconstore.co/icons/weather-icon-set)
 	
 #### Weather API
-   https://openweathermap.org/
+	[Openweathermap](https://openweathermap.org/)
 	
 #### Color Theme
-   https://www.nordtheme.com/
+	[nord](https://www.nordtheme.com/)
