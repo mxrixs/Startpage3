@@ -16,7 +16,7 @@ html {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 10vw 10vw 10vw;
 }
 
@@ -39,6 +39,7 @@ html {
 }
 
 .clock {
+cursor: default;
  color: var(--nord6);
  font-size: 5em;
  font-weight: 800;
@@ -53,10 +54,11 @@ input{
   background-color: var(--nord1);
   border: none;
   border-radius: 0.4em;
-  width: 23vw;
+  width: 24vw;
   height: 1.7em;
   color: var(--nord6);
   font-weight: bold;
+  padding-left: 0.4em;
 }
 
 input:hover{
@@ -85,10 +87,15 @@ a{
 }
 
 h2{
+  cursor: default;
   font-size: 1.7em;
   text-align: center;
   text-decoration: none;
-  color: var(--nord9);
+  color: var(--nord6);
   margin-top: 0.3em;
   font-weight: 600;
+}
+
+#Weather_grid{
+  background-color: var(--nord0) !important;
 }
