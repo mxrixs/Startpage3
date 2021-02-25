@@ -23,13 +23,13 @@ function clock() {
       var json;
        
        json = res.json();
-       Identifier = json.weather[0].description
+       identifier = json.weather[0].description
 
     if(identifier == bla){
-        GetElementById("Weather.Icon").src = "assets/icons/flag.svg";
+        GetElementById("Icon").src = "assets/icons/flag.svg";
     }
     else{
-         GetElementById("Weather.Icon").src = "assets/icons/snow.svg";
+         GetElementById("Icon").src = "assets/icons/snow.svg";
      }
 }
 
