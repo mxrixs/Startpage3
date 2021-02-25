@@ -25,7 +25,7 @@ function clock() {
        json = res.json();
        identifier = json.weather[0].description
 
-    if(identifier == "bla"){
+    if(identifier != identifier){
         
         document.GetElementById("Icon").src = "assets/icons/flag.svg";
     }
