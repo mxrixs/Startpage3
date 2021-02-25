@@ -26,10 +26,11 @@ function clock() {
        identifier = json.weather[0].description
 
     if(identifier == bla){
-        GetElementById("Icon").src = "assets/icons/flag.svg";
+        
+        document.GetElementById("Icon").src = "assets/icons/flag.svg";
     }
     else{
-         GetElementById("Icon").src = "assets/icons/snow.svg";
+        document.GetElementById("Icon").src = "assets/icons/snow.svg";
      }
 }
 
