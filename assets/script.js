@@ -36,4 +36,3 @@ function clock() {
 
 clock();
 weather();
-   
