@@ -39,11 +39,11 @@ html {
 }
 
 .clock {
-cursor: default;
- color: var(--nord6);
- font-size: 5em;
- font-weight: 800;
- font-family: Tahoma;
+  cursor: default;
+  color: var(--nord6);
+  font-size: 5em;
+  font-weight: 800;
+  font-family: Tahoma;
 }
 
 .searchbar{
@@ -102,4 +102,23 @@ input:focus {
 
 #Weather_grid{
   background-color: var(--nord0) !important;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  margin-left: 11vw;
+}
+
+.Icon{
+  color: var(--nord4);
+  display: block;
+}
+
+.temperature{
+  cursor: default;
+  color: var(--nord6);
+  font-size: 3em;
+  font-weight: 800;
+  font-family: Tahoma;
 }
