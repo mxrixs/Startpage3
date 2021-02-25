@@ -11,25 +11,28 @@ function clock() {
     document.getElementById("clock").innerText = time;
     }
 
-    function weather(){
-        var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd';
-        fetch(call).then(handler)
-        setInterval(weather, 600000);
-    }
+function weather(){
+    var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd';
+    fetch(call).then(handler)
+    setInterval(weather, 600000);
+}
     
     
- function handler(res){
-      var identifier;
-      var json;
-       
-       json = res.json();
-       identifier = json.weather[0].description
+function handler(res){
+    var identifier;
+    var json;
+    
+    console.log('starting...');
 
+    json = res.json();
+    identifier = json.weather[0].description
+
+    console.log('using if...');
     if(identifier != identifier){
-        
         document.GetElementById("Icon").src = "assets/icons/flag.svg";
     }
     else{
+        console.log('else...');
         document.GetElementById("Icon").src = "assets/icons/snow.svg";
      }
 }
