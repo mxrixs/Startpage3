@@ -22,17 +22,17 @@ function handler(res){
     var identifier;
     var json;
     
-    console.log('starting...');
+    console.log("starting...");
 
     json = res.json();
     identifier = json.weather[0].description
 
-    console.log('using if...');
+    console.log("using if...");
     if(identifier != identifier){
         document.GetElementById("Icon").src = "assets/icons/flag.svg";
     }
     else{
-        console.log('else...');
+        console.log("else...");
         document.GetElementById("Icon").src = "assets/icons/snow.svg";
      }
 }
