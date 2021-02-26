@@ -105,20 +105,21 @@ input:focus {
 }
 
 img{
-  width: 50%;
-  height: 50%;
-  margin-left: 11vw;
+  display: inline;
+  width: 40%;
+  height: 40%;
 }
-
 .Icon{
-  color: var(--nord4);
-  display: block;
+  margin-left: 5.2vw;
 }
 
 .temperature{
+  display: inline;
   cursor: default;
   color: var(--nord6);
-  font-size: 3em;
+  font-size: 3.4em;
   font-weight: 800;
   font-family: Tahoma;
+  margin-left: 1vw;
+  margin-top: 0;
 }
