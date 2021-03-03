@@ -104,17 +104,14 @@ input:focus {
   background-color: var(--nord0) !important;
 }
 
-img{
-  display: inline;
-  width: 40%;
-  height: 40%;
-}
 .Icon{
-  margin-left: 5.2vw;
+  display: inline-block;
+  width: 50%;
+  height: 35%;
 }
 
 .temperature{
-  display: inline;
+  display: inline-block;
   cursor: default;
   color: var(--nord6);
   font-size: 3.4em;
