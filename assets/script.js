@@ -51,4 +51,7 @@ function handler(res){
     else if(identifier == 502 || identifier == 503 || identifier == 504 || identifier == 520 || identifier == 521){
         document.GetElementById("Icon").src = "assets/icons/cloud-rain-2.svg";
     }
+    else{
+        document.GetElementById("Icon").src = "assets/icons/error.svg"
+    }
 }
