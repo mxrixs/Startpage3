@@ -1,7 +1,11 @@
 function weather(){
     var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd';
+    var first = false;
     fetch(call).then(handler)
-    setInterval(weather, 10000);
+    if(!first){
+        setInterval(weather, 2000);
+        false = true;
+    }
 }
 weather();
 
