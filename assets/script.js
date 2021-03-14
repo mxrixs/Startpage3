@@ -1,11 +1,9 @@
+var first = false;
+
 function weather(){
+    console.log("weather() has been called");
     var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd';
-    var first = false;
     fetch(call).then(handler)
-    if(!first){
-        setInterval(weather, 2000);
-        false = true;
-    }
 }
 weather();
 
@@ -26,11 +24,13 @@ clock();
     
     
 function handler(res){
+    var json;
     var identifier;
     
     console.log("starting...");
 
-    identifier = res.json().weather[0].id;
+    json = res.json();
+    identifier = json.weather[0].id;
 
     console.log("using if...");
     
