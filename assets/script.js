@@ -2,7 +2,7 @@ var first = false;
 
 function weather(){
     console.log("weather() has been called");
-    var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd';
+    var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd&units=metric';
     fetch(call).then(handler)
 }
 weather();
@@ -31,6 +31,7 @@ function handler(res){
 
     json = res.json();
     identifier = json.weather[0].id;
+    temperature = json.main.temp;
 
     console.log("using if...");
     
@@ -58,4 +59,8 @@ function handler(res){
     else{
         document.GetElementById("Icon").src = "assets/icons/error.svg"
     }
+
+    console.log("temp is...");
+
+    document.getElementById("temperature").innertext = temperature + "°";
 }
