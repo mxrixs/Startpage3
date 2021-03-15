@@ -3,7 +3,7 @@ var first = false;
 function weather(){
     console.log("weather() has been called");
     var call = 'https://api.openweathermap.org/data/2.5/weather?id=2867714&appid=6fd57ceda43d5e2463dbe8d72e571bcd&units=metric';
-    fetch(call).then(handler)
+    fetch(call).then(res => res.json).then(handler);
 }
 weather();
 
@@ -29,10 +29,13 @@ function handler(res){
     
     console.log("starting...");
 
-    json = res.json();
+    json = res;
+    console.log(json);
     identifier = json.weather[0].id;
+    console.log(identifier);
     temperature = json.main.temp;
-
+    console.log(temperature);
+    
     console.log("using if...");
     
     if(identifier == 200 || identifier == 201 || identifier == 202){
