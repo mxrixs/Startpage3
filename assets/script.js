@@ -24,16 +24,13 @@ clock();
     
     
 function handler(res){
-    var json;
-    var identifier;
     
     console.log("starting...");
 
-    json = res;
-    console.log(json);
-    identifier = json.weather[0].id;
+    console.log(res);
+    const identifier = res.weather[0].id;
     console.log(identifier);
-    temperature = json.main.temp;
+    const temperature = json.main.temp;
     console.log(temperature);
     
     console.log("using if...");
