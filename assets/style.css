@@ -108,6 +108,9 @@ input:focus {
   display: inline-block;
   width: 50%;
   height: 35%;
+  margin: 0 auto;
+  max-width: 96px;
+  max-height: 96px;
 }
 
 .temperature{
@@ -117,6 +120,8 @@ input:focus {
   font-size: 3.4em;
   font-weight: 800;
   font-family: Tahoma;
-  margin-left: 1vw;
-  margin-top: 0;
+}
+
+#Icon-code{
+  text-align: center;
 }

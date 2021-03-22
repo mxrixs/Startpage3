@@ -56,9 +56,10 @@ function handler(res){
     }
     else{
         document.getElementById("Icon").src = "assets/icons/error.svg"
+        document.getElementById("Icon-code").innerText = identifier;
     }
 
     console.log("temp is...");
 
-    document.getElementById("temperature").innertext = temperature + "°";
+    document.getElementById("temperature").innerText = temperature + '°';
 }
