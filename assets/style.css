@@ -122,19 +122,15 @@ h2{
   font-family: Tahoma;
 }
 
-#Icon-code{
-  text-align: center;
-}
-
 #tile_input{
   background-color: var(--nord1);
   border: none;
   border-radius: 0.4em;
   width: 24vw;
-  height: 1.7em;
+  height: 1.4em;
   color: var(--nord6);
   font-weight: bold;
-  margin-top: 1em;
+  margin-top: 0.7em;
 }
 
 #tile_input:hover{
