@@ -50,7 +50,7 @@ html {
   margin: 6vh 0.6vw 0 0;
 }
 
-input{
+#searchbar_input{
   background-color: var(--nord1);
   border: none;
   border-radius: 0.4em;
@@ -61,11 +61,11 @@ input{
   padding-left: 0.4em;
 }
 
-input:hover{
+#searchbar_input:hover{
   background-color: var(--nord2);
 }
 
-input:active{
+#searchbar_input:active{
   background-color: var(--nord3);
 }
 
