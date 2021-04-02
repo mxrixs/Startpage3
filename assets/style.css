@@ -96,7 +96,7 @@ h2{
   font-weight: 600;
 }
 
-input:focus {
+#searchbar_input:focus {
   outline: none !important;
 }
 
@@ -124,4 +124,27 @@ input:focus {
 
 #Icon-code{
   text-align: center;
+}
+
+#tile_input{
+  background-color: var(--nord1);
+  border: none;
+  border-radius: 0.4em;
+  width: 24vw;
+  height: 1.7em;
+  color: var(--nord6);
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#tile_input:hover{
+  background-color: var(--nord2);
+}
+
+#tile_input:active{
+  background-color: var(--nord3);
+}
+
+#tile_input:focus {
+  outline: none !important;
 }

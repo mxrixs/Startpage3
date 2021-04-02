@@ -16,11 +16,10 @@
       <div class = "header">
         <div class= "clock" id="clock"></div>
         <div class= "searchbar"> 
-          <form id="seacrhbar" method="get" action="https://duckduckgo.com/?q=q" autocomplete="off">
-            <input id="seacrhbar_input" name="q">
+          <form id="searchbar" method="get" action="https://duckduckgo.com/?q=q" autocomplete="off">
+            <input id="searchbar_input" name="q">
           </form>
         </div>
-        
       </div>
       <div class="container">
         <div class="grid-container">
@@ -37,13 +36,13 @@
           <div class="grid" id="Weather_grid">
             <div class="temperature" id="temperature"></div>
               <img class="Icon" id="Icon" src="assets/icons/cloud-sun.svg"></img>
-            </div>
             <form method="get" action="https://github.com/search?q=q" autocomplete="off">
-              <input name="q">
+              <input id="tile_input" name="q">
             </form>
             <form method="get" action="https://www.youtube.com/results?search_query=q" autocomplete="off">
-              <input name="q">
+              <input id="tile_input" name="q">
             </form>
+          </div>
           <div class="grid"> 
             <h2>Tools</h2>
           </div>
