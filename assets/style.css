@@ -127,10 +127,9 @@ h2{
   border: none;
   border-radius: 0.4em;
   width: 24vw;
-  height: 1.4em;
+  height: 4em;
   color: var(--nord6);
   font-weight: bold;
-  margin-top: 0.7em;
 }
 
 #tile_input:hover{
