@@ -44,6 +44,7 @@ html {
   font-size: 5em;
   font-weight: 800;
   font-family: Tahoma;
+  margin-left: 0.55vw;
 }
 
 .searchbar{
@@ -51,18 +52,21 @@ html {
 }
 
 #searchbar_input{
-  background-color: var(--nord1);
-  border: none;
+  background-color: var(--nord0);
+  border: solid;
+  border-color: var(--nord1);
   border-radius: 0.4em;
   width: 24vw;
-  height: 1.7em;
+  height: 2.1em;
   color: var(--nord6);
   font-weight: bold;
   padding-left: 0.4em;
+  margin-bottom: 0.2em;
 }
 
 #searchbar_input:hover{
-  background-color: var(--nord2);
+  background-color: var(--nord1);
+  border-color: var(--nord0);
 }
 
 #searchbar_input:active{
